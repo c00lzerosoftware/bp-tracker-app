@@ -14,7 +14,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.bptracker.data.local.BPReading
 import com.bptracker.domain.model.BPCategory
-import com.bptracker.presentation.HomeViewModel
+import com.bptracker.presentation.home.HomeViewModel
 import com.bptracker.ui.theme.HealthColors
 import java.time.format.DateTimeFormatter
 
