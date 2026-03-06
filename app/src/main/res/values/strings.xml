@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BP Tracker</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="retry">Retry</string>
+
+    <!-- Camera -->
+    <string name="camera_permission_required">Camera permission is required to scan BP readings</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="scan_reading">Scan Reading</string>
+    <string name="capture">Capture</string>
+
+    <!-- Readings -->
+    <string name="systolic">Systolic</string>
+    <string name="diastolic">Diastolic</string>
+    <string name="pulse">Pulse</string>
+    <string name="mmHg">mmHg</string>
+    <string name="bpm">bpm</string>
+    <string name="add_reading">Add Reading</string>
+    <string name="manual_entry">Manual Entry</string>
+    <string name="scan_device">Scan Device</string>
+
+    <!-- Reminders -->
+    <string name="reminder_title">Measurement Reminder</string>
+    <string name="reminder_message">Time to take your blood pressure measurement</string>
+    <string name="reminder_channel_name">Measurement Reminders</string>
+    <string name="reminder_channel_description">Notifications for scheduled blood pressure measurements</string>
+
+    <!-- Insights -->
+    <string name="ai_insights">AI Insights</string>
+    <string name="generating_insights">Generating insights...</string>
+    <string name="insights_error">Failed to generate insights</string>
+
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="insights">Insights</string>
+    <string name="settings">Settings</string>
+</resources>
