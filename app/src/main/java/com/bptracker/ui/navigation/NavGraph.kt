@@ -2,12 +2,10 @@ package com.bptracker.ui.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.bptracker.presentation.home.HomeViewModel
-import com.bptracker.ui.screens.HomeScreen
+import com.bptracker.ui.screens.SimpleHomeScreen
 
 sealed class Screen(val route: String) {
     object Home : Screen("home")
@@ -28,9 +26,7 @@ fun BPTrackerNavGraph(
         modifier = modifier
     ) {
         composable(Screen.Home.route) {
-            val viewModel: HomeViewModel = hiltViewModel()
-            HomeScreen(
-                viewModel = viewModel,
+            SimpleHomeScreen(
                 onNavigateToCamera = { navController.navigate(Screen.Camera.route) },
                 onNavigateToHistory = { navController.navigate(Screen.History.route) },
                 onNavigateToInsights = { navController.navigate(Screen.Insights.route) },
