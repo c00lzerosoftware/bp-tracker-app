@@ -6,7 +6,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.bptracker.presentation.HomeViewModel
+import com.bptracker.presentation.home.HomeViewModel
 import com.bptracker.ui.screens.HomeScreen
 
 sealed class Screen(val route: String) {
